@@ -24,7 +24,7 @@ for phone_number in phone_numbers:
     signup_data = {
         'email': email,
         'phone': phone_number,
-        'country': 'PL'  # 选择波兰
+        'country': 'po'  # 选择波兰
     }
 
     response = session.post(login_url, data=signup_data)
