@@ -36,4 +36,4 @@ for phone_number in phone_numbers:
         print(f"注册失败，状态码：{response.status_code}，电话号码：{phone_number}")
 
     # 等待5分钟
-    time.sleep(300)
+    time.sleep(30)
